@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header h1{
+  background: gray;
+  color: #fff;
+  padding: 15px;
+}
+header nav{
+  background: lightblue;
+  color: #fff;
+  padding: 20px;
+}
+nav ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-weight: bold;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: 40px 0;
+}
+.project-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.project-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#about h2{
+  font-size: 20px;
+  font-weight: 100;
+}
+#about h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 10px;
+  border-radius: 10px;
+}
+button:hover {
+  background: #555;
+}
+#contact{
+  background: lightsalmon;
+  padding: 10px;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+form input{
+  width: 200px;
+}
+footer p{
+  background: skyblue;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
