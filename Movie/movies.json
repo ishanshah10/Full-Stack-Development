@@ -1,0 +1,22 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Batman",
+      "year": 2015,
+      "genre": "Aciton, Thriller"
+    },
+    {
+      "id": "1b9f",
+      "title": "Avengers",
+      "genre": "Action",
+      "year": 2016
+    },
+    {
+      "id": "e060",
+      "title": "BhagamBhag",
+      "year": 2018,
+      "genre": "Comedy"
+    }
+  ]
+}
